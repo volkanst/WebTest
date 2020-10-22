@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG" verbose="1">
+    <test name="TestCuke">
+        <parameter name="siteUrl" value="${siteUrl}"/>
+        <classes>
+            <class name="runner.CucumberRunner">
+            </class>
+        </classes>
+    </test>
+</suite>
